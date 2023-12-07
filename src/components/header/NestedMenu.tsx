@@ -52,7 +52,7 @@ const menuItems: MenuItem[] = [
     key: "women-girls-fation",
     level: 1,
     icon: <SlUserFemale />,
-    // link: "/hello",
+    link: "/women-girl-fasioon",
   },
   {
     title: "Health & Beauty",

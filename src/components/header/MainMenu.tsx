@@ -29,7 +29,7 @@ const MainMenu: React.FC<IMainMenu> = ({
         {menuItems?.map((item, index) => (
           <div
             key={index}
-            className={`cursor-pointer mb-1 ${
+            className={`cursor-pointer mb-1 transition ease-in-out delay-75 ${
               selectedMenu === item.title ? " text-site-primary" : ""
             }`}
             onMouseEnter={() => handleMenuHover(item)}
