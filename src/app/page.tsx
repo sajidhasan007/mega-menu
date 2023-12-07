@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <div className="h-screen">
       <div className="w-full relative border border-red-600">
-        <h1>Min content</h1>
         <Image
           src={"/slide-banner.svg"}
           alt="slider image"
